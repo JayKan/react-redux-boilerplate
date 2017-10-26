@@ -1,0 +1,12 @@
+{
+	"roots": ["<rootDir>"],
+	"testMatch": [
+		"<rootDir>/test/**/*.js"
+	],		
+	"collectCoverageFrom" : [
+		"src/**/*.js",
+		"!src/index.js"
+	],
+	"coverageDirectory": "./coverage",
+	"coverageReporters": ["json", "html", "text", "text-summary"]
+}

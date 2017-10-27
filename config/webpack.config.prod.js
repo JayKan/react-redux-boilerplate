@@ -24,13 +24,18 @@ module.exports = merge.smart(config, {
       comments: false,
       sourceMap: false,
       compress: {
-        dead_code: true,
         unused: true,
+        comparisons: true,
+        conditionals: true,
+        if_return: true,
+        join_vars: true,
+        dead_code: true,
         screw_ie8: true,
-        warnings: false,        
+        evaluate: true,
+        warnings: false,
       },
       mangle: {
-        screw_ie8: true 
+        screw_ie8: true
       }
     }),
     new webpack.LoaderOptionsPlugin({

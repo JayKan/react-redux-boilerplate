@@ -9,6 +9,7 @@
     "testonly": "cross-env NODE_ENV=test jest --config=jest.config.json",
     "testonly:watch": "npm run testonly -- --watch",
     "test": "npm run lint && npm run testonly",
+    "test:watch": "npm run lint && npm run testonly:watch",
     "test:cov": "npm run lint && npm run testonly -- --coverage",
     "check": "npm run lint && npm run test",
     "build": "npm run clean && cross-env NODE_ENV=production webpack src/index.js --config config/webpack.config.prod.js"
@@ -34,10 +35,11 @@
   },
   "homepage": "https://github.com/JayKan/react-redux-boilerplate#readme",
   "dependencies": {
+    "prop-types": "^15.6.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-redux": "^5.0.6",
-    "react-router": "^4.2.0",
+    "react-router": "^3.0.2",
     "react-router-redux": "^4.0.8",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0"
@@ -70,6 +72,8 @@
     "postcss-nested": "^2.1.2",
     "postcss-simple-vars": "^4.1.0",
     "react-hot-loader": "^3.0.0-beta.6",
+    "redux-logger": "^3.0.6",
+    "remote-redux-devtools": "^0.5.12",
     "rimraf": "^2.6.2",
     "style-loader": "^0.19.0",
     "url-loader": "^0.6.2",

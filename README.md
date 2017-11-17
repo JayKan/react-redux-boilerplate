@@ -1,4 +1,4 @@
-#React Redux Boilerplate
+# React Redux Boilerplate
 [![PRs Welcome][prs-badge]][prs]
 [![MIT License][license-badge]][license]
 
@@ -15,6 +15,9 @@ Extend [redux counter examples](https://github.com/reactjs/redux/tree/master/exa
 * `npm run test`
 * `npm run test:watch`
 * `npm run test:coverage`
+
+## Contributing
+If you find a bug or think about enhancement, feel free to contribute and submit a PR
 
 ## License
 MIT © [Jay Kan](https://github.com/JayKan)

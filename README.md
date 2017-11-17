@@ -1,4 +1,7 @@
-# React Redux Boilerplate
+<div align="center">
+  <h1>React Redux Boilerplate</h1>
+</div>
+
 [![PRs Welcome][prs-badge]][prs]
 [![MIT License][license-badge]][license]
 
